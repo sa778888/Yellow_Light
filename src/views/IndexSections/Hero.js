@@ -98,15 +98,7 @@ class Hero extends React.Component {
               </svg>
             </div>
             <div class="container">
-	<div class="container__item">
-		<form class="form">
-			<input type="email" class="form__field" placeholder="Pressure at point 1" />
-      <input type="email" class="form__field" placeholder="Flow" />
-      <input type="email" class="form__field" placeholder="Pressure at point 2" />
-      <input type="email" class="form__field" placeholder="Flow" />
-			<button type="button" class="btn btn--primary btn--inside uppercase">Send</button>
-		</form>
-	</div>
+	
 	
 	<div class="container__item container__item--bottom">
 		

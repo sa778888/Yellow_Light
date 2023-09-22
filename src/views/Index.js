@@ -16,7 +16,7 @@
 
 */
 import React from "react";
-
+import Styles from "../components/Footers/s.css"
 // reactstrap components
 import { Container, Row } from "reactstrap";
 
@@ -45,6 +45,7 @@ import Carousel from "./IndexSections/Carousel.js";
 import Icons from "./IndexSections/Icons.js";
 import Login from "./IndexSections/Login.js";
 import Download from "./IndexSections/Download.js";
+import Mainp from "components/Footers/Mainp.js";
 
 class Index extends React.Component {
   componentDidMount() {
@@ -56,8 +57,10 @@ class Index extends React.Component {
     return (
       <>
         <DemoNavbar />
-        <main ref="main">
-          <Hero />
+        <main ref="main"><Hero />
+          <div className="mai"><Mainp />
+            </div>
+          
           {/* <Buttons /> */}
           {/* <Inputs /> */}
           {/* <section className="section">

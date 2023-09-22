@@ -1,0 +1,41 @@
+.mai{
+    background-color: rgb(71, 81, 170);
+    height:1080px;
+    
+}
+.main{
+    color: rgb(23, 28, 28);
+}
+.fo{
+    display: flex;
+    padding-top: 10%;
+    margin-left: 22%;
+
+}
+.sub{
+    margin-left: 2%;
+    width: 6%;
+    background-color: rgb(255, 65, 27);
+    color:wheat;
+    border-radius: 25%;
+    font-size: 18px;
+    box-shadow: 12px;
+}
+.a{
+    background-color: black;
+    border-radius: 40%;
+    min-width: 85px;
+    min-height: 45px;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+}
+.hea{
+    padding-top: 10%;
+    color: rgb(248, 249, 249);
+    display: flex;
+    justify-content: center;
+    font-size: 52px;
+    font-weight: 700;
+}
