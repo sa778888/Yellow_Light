@@ -19,7 +19,7 @@ import React from "react";
 
 // reactstrap components
 import { Button, Container, Row, Col } from "reactstrap";
-
+import Styles from "./st.css"
 class Hero extends React.Component {
   render() {
     return (
@@ -51,21 +51,10 @@ class Hero extends React.Component {
                       style={{ width: "200px" }}
                     />
                     <p className="lead text-white">
-                      A beautiful Design System for Bootstrap 4. It's Free and
-                      Open Source.
+                      A Model to predict bursting of pipes
                     </p>
                     <div className="btn-wrapper mt-5">
-                      <Button
-                        className="btn-white btn-icon mb-3 mb-sm-0"
-                        color="default"
-                        href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
-                        size="lg"
-                      >
-                        <span className="btn-inner--icon mr-1">
-                          <i className="ni ni-cloud-download-95" />
-                        </span>
-                        <span className="btn-inner--text">Download React</span>
-                      </Button>{" "}
+                      
                       <Button
                         className="btn-icon mb-3 mb-sm-0"
                         color="github"
@@ -84,14 +73,9 @@ class Hero extends React.Component {
                     </div>
                     <div className="mt-5">
                       <small className="text-white font-weight-bold mb-0 mr-2">
-                        *proudly coded by
+                        * coded by Teammates
                       </small>
-                      <img
-                        alt="..."
-                        className="ml-1"
-                        style={{ height: "28px" }}
-                        src={require("assets/img/brand/creativetim-white-slim.png")}
-                      />
+                      
                     </div>
                   </Col>
                 </Row>
@@ -113,6 +97,15 @@ class Hero extends React.Component {
                 />
               </svg>
             </div>
+            <div class="container">
+	<div class="container__item">
+		
+	</div>
+	
+	<div class="container__item container__item--bottom">
+		
+	</div>
+</div>
           </section>
         </div>
       </>

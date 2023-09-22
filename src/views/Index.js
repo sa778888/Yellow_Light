@@ -58,16 +58,16 @@ class Index extends React.Component {
         <DemoNavbar />
         <main ref="main">
           <Hero />
-          <Buttons />
-          <Inputs />
-          <section className="section">
+          {/* <Buttons /> */}
+          {/* <Inputs /> */}
+          {/* <section className="section">
             <Container>
               <CustomControls />
               <Menus />
             </Container>
-          </section>
-          <Navbars />
-          <section className="section section-components">
+          </section> */}
+          {/* <Navbars /> */}
+          {/* <section className="section section-components">
             <Container>
               <Tabs />
               <Row className="row-grid justify-content-between align-items-center mt-lg">
@@ -84,11 +84,11 @@ class Index extends React.Component {
               <Datepicker />
               <TooltipPopover />
             </Container>
-          </section>
-          <Carousel />
+          </section> */}
+          {/* <Carousel />
           <Icons />
           <Login />
-          <Download />
+          <Download /> */}
         </main>
         <CardsFooter />
       </>

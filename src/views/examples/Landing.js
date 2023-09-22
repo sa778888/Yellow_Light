@@ -74,7 +74,7 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
+                        PIPE BREAKING PREDICTION{" "}
                         <span>completed with examples</span>
                       </h1>
                       <p className="lead text-white">
@@ -102,7 +102,7 @@ class Landing extends React.Component {
                             <i className="ni ni-cloud-download-95" />
                           </span>
                           <span className="btn-inner--text">
-                            Download React
+                            
                           </span>
                         </Button>
                       </div>
