@@ -24,7 +24,7 @@ class Mainp extends Component {
       const { input1, input2, input3, input4 } = this.state;
   
       // Replace 'API_URL' with the actual API endpoint
-      const apiUrl = 'http://127.0.0.1:8000';
+      const apiUrl = 'url';
   
       try {
         const response = await axios.post(apiUrl, { input1, input2, input3, input4 });
@@ -51,7 +51,7 @@ class Mainp extends Component {
             <input
               type="text"
               id="input1"
-              
+              name="input1"
               value={this.state.input1}
               placeholder="Pressure 1"
               onChange={this.handleInputChange}
@@ -62,7 +62,7 @@ class Mainp extends Component {
             <input
               type="text"
               id="input2"
-             
+              name="input2"
               value={this.state.input2}
               placeholder="Flow 1"
               onChange={this.handleInputChange}
@@ -73,7 +73,7 @@ class Mainp extends Component {
             <input
               type="text"
               id="input3"
-              
+              name="input3"
               value={this.state.input3}
               placeholder="Pressure 2"
               onChange={this.handleInputChange}
@@ -84,7 +84,7 @@ class Mainp extends Component {
             <input
               type="text"
               id="input4"
-              
+              name="input4"
               value={this.state.input4}
               placeholder="Flow 2"
               onChange={this.handleInputChange}
